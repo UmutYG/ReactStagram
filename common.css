@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #4b5563;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--2-cols {
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 1.2rem 2.4rem;
+
+
+}
+
+.btn--full {
+    background-color: #3b82f6;
+
+}
+
+
+.margin-top-sm {
+    margin-top: 1.2rem !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+
+/* 
+01 --- TYPHORGRAPHY  
+    - Font sizes (px):
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ 
+    - Font weights:
+    Default : 400
+    500
+    600
+    700
+
+    -Line heights:
+    Default: 1
+    Small: 1.05
+    Phrargraph: 1.6
+    1.8
+
+02 --- COLORS
+    Primary: #3b82f6
+    Tints: #
+    Shades: #
+    
+    Badges:
+ 
+    Accents:
+    Greys:
+     #d1d5db
+     #f3f4f6
+     #6b7280
+     #4b5563
+
+03 --- IMAGES
+
+04 --- ICONS 
+
+05 --- SHADOWS
+
+06 --- BORDER RADIUS
+Default: 7px
+
+07 --- WHITESPACE
+
+    SPACING SYSTEM (px):
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/ 
